@@ -25,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${outfit.variable} ${geistMono.variable} antialiased bg-[#fafafa] dark:bg-[#0a0a0a] text-black dark:text-white font-sans selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black min-h-screen flex`}
+        className={`${outfit.variable} ${geistMono.variable} antialiased bg-[#0a0a0a] text-white font-sans selection:bg-white selection:text-black min-h-screen flex`}
       >
         <Sidebar />
         <main className="flex-1 ml-64 p-8 relative">
