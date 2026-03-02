@@ -11,8 +11,8 @@ export default function Home() {
           <span className="relative z-10 text-transparent bg-clip-text bg-black dark:bg-white" style={{ WebkitTextStroke: "1.5px var(--foreground)" }}>Scale.</span>
         </h1>
         <p className="text-lg md:text-2xl font-mono max-w-2xl leading-relaxed border-l-4 border-black dark:border-white pl-4 md:pl-6">
-          Software Engineer experienced in building and deploying full-stack applications.
-          Focused on scalable backend systems and clean API design.
+          Software Engineer building production-grade full-stack applications.
+          AWS Certified Cloud Practitioner focused on scalable backend architecture, clean API design, CI/CD automation, and reliable cloud deployments.
         </p>
       </section>
 
