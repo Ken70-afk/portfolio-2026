@@ -34,8 +34,8 @@ export default function Sidebar() {
     }
 
     return (
-        <aside className="fixed left-0 top-0 h-screen w-64 border-r-4 border-black dark:border-white bg-[#fafafa] dark:bg-[#0a0a0a] flex flex-col p-6 z-40">
-            <div className="flex flex-col items-center mb-10" style={{ perspective: 400 }}>
+        <aside className="relative md:fixed md:left-0 md:top-0 w-full md:w-64 md:h-screen border-b-4 md:border-b-0 md:border-r-4 border-black dark:border-white bg-[#fafafa] dark:bg-[#0a0a0a] flex flex-col p-6 z-40">
+            <div className="flex flex-col items-center mb-8 md:mb-10" style={{ perspective: 400 }}>
                 <motion.div
                     className="relative w-24 h-[134px] bg-black dark:bg-white mb-4 flex items-center justify-center overflow-hidden border-4 border-black dark:border-white shadow-[6px_6px_0_0_rgba(0,0,0,1)] dark:shadow-[6px_6px_0_0_rgba(255,255,255,1)] group"
                     whileHover="hover"
@@ -66,7 +66,7 @@ export default function Sidebar() {
                 <p className="text-xs font-mono opacity-60 mt-1">Software Engineer</p>
             </div>
 
-            <nav className="flex-1 flex flex-col space-y-4">
+            <nav className="flex-1 flex flex-col space-y-4 mb-8 md:mb-0">
                 {links.map((link) => {
                     const isActive = pathname === link.href;
                     return (

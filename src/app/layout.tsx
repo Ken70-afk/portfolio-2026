@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body
-        className={`${outfit.variable} ${geistMono.variable} antialiased bg-[#0a0a0a] text-white font-sans selection:bg-white selection:text-black min-h-screen flex`}
+        className={`${outfit.variable} ${geistMono.variable} antialiased bg-[#0a0a0a] text-white font-sans selection:bg-white selection:text-black min-h-screen flex flex-col md:flex-row`}
       >
         <Sidebar />
-        <main className="flex-1 ml-64 p-8 relative">
+        <main className="flex-1 md:ml-64 p-4 md:p-8 relative w-full overflow-x-hidden">
           <MountainBackground />
           {children}
         </main>
