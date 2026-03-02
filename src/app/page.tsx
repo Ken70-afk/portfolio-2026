@@ -3,14 +3,14 @@ export default function Home() {
     <div className="max-w-4xl mx-auto space-y-12">
       {/* Hero Section */}
       <section className="space-y-6 pt-12">
-        <h1 className="text-5xl md:text-7xl font-mono font-bold tracking-tighter uppercase relative inline-block">
-          <span className="relative z-10 text-white dark:text-black bg-black dark:bg-white px-3 py-1 mr-2 inline-block">Code.</span>
+        <h1 className="text-5xl md:text-7xl font-mono font-bold tracking-tighter uppercase relative inline-block leading-[1.1]">
+          <span className="relative z-10 text-white dark:text-black bg-black dark:bg-white px-3 py-1 mr-2 inline-block mb-2 md:mb-0">Code.</span>
           <br className="md:hidden" />
-          <span className="relative z-10 italic inline-block mr-2">Build.</span>
+          <span className="relative z-10 italic inline-block mr-2 mb-2 md:mb-0">Build.</span>
           <br className="md:hidden" />
-          <span className="relative z-10 text-transparent bg-clip-text bg-black dark:bg-white" style={{ WebkitTextStroke: "2px var(--foreground)" }}>Scale.</span>
+          <span className="relative z-10 text-transparent bg-clip-text bg-black dark:bg-white" style={{ WebkitTextStroke: "1.5px var(--foreground)" }}>Scale.</span>
         </h1>
-        <p className="text-xl md:text-2xl font-mono max-w-2xl leading-relaxed border-l-4 border-black dark:border-white pl-6">
+        <p className="text-lg md:text-2xl font-mono max-w-2xl leading-relaxed border-l-4 border-black dark:border-white pl-4 md:pl-6">
           Software Engineer experienced in building and deploying full-stack applications.
           Focused on scalable backend systems and clean API design.
         </p>

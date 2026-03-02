@@ -62,8 +62,8 @@ export default function Sidebar() {
                         }}
                     />
                 </motion.div>
-                <h1 className="text-xl font-bold font-mono tracking-tighter uppercase text-center mt-2">Abhinav Ranjith</h1>
-                <p className="text-xs font-mono opacity-60 mt-1">Software Engineer</p>
+                <h1 className="text-xl md:text-2xl font-bold font-mono tracking-tighter uppercase text-center mt-2">Abhinav Ranjith</h1>
+                <p className="text-sm font-mono opacity-80 mt-1">Software Engineer</p>
             </div>
 
             <nav className="flex-1 flex flex-col space-y-4 mb-8 md:mb-0">
