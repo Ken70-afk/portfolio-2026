@@ -5,6 +5,18 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
+        title: "WEUNITED",
+        role: "Lead Developer (Freelance Client Project)",
+        date: "Feb 2026 – Present",
+        href: "https://we-united.vercel.app",
+        description: [
+            "Consulting directly with the client to architect, design, and develop the end-to-end infrastructure of a premium professional networking platform.",
+            "Engineering foundational frontend features using React 19, Vite, and mobile-first CSS, including a secure multi-step guided onboarding flow and dynamic user profile management.",
+            "Building a personalized, interactive member dashboard designed to display user analytics, subscription details, and community success stories.",
+            "Driving the full-stack direction of the project, establishing scalable UI components while planning and implementing backend database integrations and automated payment processing systems."
+        ]
+    },
+    {
         title: "Operation Meraki",
         role: "Full-Stack Developer (Capstone & Continuation)",
         date: "Feb 2025 – Aug 2025",
