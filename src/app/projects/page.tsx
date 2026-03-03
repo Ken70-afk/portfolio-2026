@@ -29,6 +29,17 @@ const projects = [
         ]
     },
     {
+        title: "Stealth Filter (Facebook Marketplace Scraper)",
+        role: "Full-Stack Developer",
+        date: "Mar 2026",
+        href: "https://github.com/Ken70-afk/Stealth-Filter",
+        description: [
+            "Architected a premium, stealth-focused Facebook Marketplace scraper with a modern glassmorphic Next.js frontend to bypass aggressive algorithm injections and unreliable internal search controls.",
+            "Engineered an anonymous data-extraction pipeline utilizing Puppeteer, Stealth Plugin, and Cheerio to evade bot detection and scrape deeply-loaded React DOM elements across North American cities.",
+            "Implemented strict, client-side mathematical filtering logic (price boundaries, exact keyword inclusion/exclusion) to guarantee 100% accurate search returns, overriding Facebook's algorithmic bounds."
+        ]
+    },
+    {
         title: "Retail Labeling Automation App",
         role: "Software Developer (SVT — Client Project)",
         date: "2024 – Present",
