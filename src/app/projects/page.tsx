@@ -8,7 +8,7 @@ const projects = [
         title: "WEUNITED",
         role: "Lead Developer (Freelance Client Project)",
         date: "Feb 2026 – Present",
-        href: "https://we-united.vercel.app",
+        href: "https://www.weunited.ca",
         description: [
             "Consulting directly with the client to architect, design, and develop the end-to-end infrastructure of a premium professional networking platform.",
             "Engineering foundational frontend features using React 19, Vite, and mobile-first CSS, including a secure multi-step guided onboarding flow and dynamic user profile management.",
